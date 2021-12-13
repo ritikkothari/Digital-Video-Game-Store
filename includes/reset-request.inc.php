@@ -50,8 +50,8 @@ if (isset($_POST['reset-req-submit'])) {
                     $message .= "<p>Password reset link: <br>";
                     $message .= '<a href="'. $url . '">' .$url . '</a></p>';
 
-                    $headers = "From: Polaris <scarletstreak@polaris-store.epizy.com>\r\n";
-                    $headers .= "Reply-To: scarletstreak@polaris-store.epizy.com\r\n";
+                    $headers = "From: Polaris <placeholder@polaris-store.epizy.com>\r\n";
+                    $headers .= "Reply-To: placeholder@polaris-store.epizy.com\r\n";
                     $headers .= "Content-type: text/html\r\n";
 
                     mail($to, $subject, $message, $headers);
