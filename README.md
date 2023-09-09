@@ -1,1 +1,1 @@
-# polaris-store
+# Digital Video Game Store
